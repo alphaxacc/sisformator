@@ -56,7 +56,7 @@
     dstr = (d.getFullYear()) + "/" + (d.getMonth() + 1) + "/" + (d.getDate());
     pad = Math.floor((35 - title.length - 2) / 2) + 1;
     console.log(pad);
-    meta = Array(pad).join('　') + ("【" + title + "】\n\n\n作者：" + author + "\n" + dstr + "發表於：首發SexInSex\n字数：" + essay.length + "\n\n");
+    meta = Array(pad).join('　') + ("【" + title + "】\n\n\n作者：" + author + "\n" + dstr + "發表於：首發SexInSex\n字數：" + essay.length + "\n\n");
     content = "";
     ref = essay.split('\n');
     for (k = 0, len = ref.length; k < len; k++) {
